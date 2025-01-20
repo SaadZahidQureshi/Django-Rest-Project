@@ -24,13 +24,11 @@ cd Django-Rest-Project
 ```bash
 DEBUG=1
 SECRET_KEY=your-secret-key
-DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
-SQL_ENGINE=django.db.backends.postgresql
-SQL_DATABASE=django_dev
-SQL_USER=django_user
-SQL_PASSWORD=django_password
-SQL_HOST=db
-SQL_PORT=5432
+POSTGRES_DB=django_dev
+POSTGRES_USER=django_user
+POSTGRES_PASSWORD=django_password
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
 ```
 
 3. Build and run the containers:
