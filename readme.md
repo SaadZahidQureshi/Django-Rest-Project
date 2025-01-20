@@ -17,7 +17,7 @@ A Django REST API implementation featuring JWT authentication, role-based access
 1. Clone the repository:
 ```bash
 git clone https://github.com/SaadZahidQureshi/Django-Rest-Project.git
-cd dDjango-Rest-Project
+cd Django-Rest-Project
 ```
 
 2. Create a `.env` file in the project root:
